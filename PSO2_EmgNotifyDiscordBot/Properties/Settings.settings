@@ -1,9 +1,5 @@
 ﻿<?xml version='1.0' encoding='utf-8'?>
-<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="PSO2_EmgNotifyDiscordBot.Properties" GeneratedClassName="Settings">
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)">
   <Profiles />
-  <Settings>
-    <Setting Name="Token" Type="System.String" Scope="Application">
-      <Value Profile="(Default)">MjM2MTE4MDA5MTU5MDkwMTc2.DtbZWQ.j-A74F2_0pTxl16Ah5b62HFOsHM</Value>
-    </Setting>
-  </Settings>
+  <Settings />
 </SettingsFile>

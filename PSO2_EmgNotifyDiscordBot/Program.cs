@@ -16,10 +16,13 @@ namespace PSO2_EmgNotifyDiscordBot {
         private DiscordSocketClient client;
         private IServiceProvider services;
 
-        static void Main(string[] args) => new Program().MainAsync().GetAwaiter().GetResult();
+        static void Main(string[] args) {
+            new Program().MainAsync().GetAwaiter().GetResult();
+        }
 
         public async Task MainAsync() {
-            string token = Properties.Settings.Default.Token;
+            Console.WriteLine("ぃぃぃぃ");
+            //string token = Configration.Instance.Datas.DiscordToken;
 
             client = new DiscordSocketClient();
             commands = new CommandService();
@@ -29,7 +32,7 @@ namespace PSO2_EmgNotifyDiscordBot {
             client.MessageReceived += MessageReceived;
             await commands.AddModulesAsync(Assembly.GetEntryAssembly());
 
-            await client.LoginAsync(TokenType.Bot, token);
+            await client.LoginAsync(TokenType.Bot, "");
             await client.StartAsync();
 
             await Task.Delay(-1);//Botが落ちないようにここでずっと処理を止めてる

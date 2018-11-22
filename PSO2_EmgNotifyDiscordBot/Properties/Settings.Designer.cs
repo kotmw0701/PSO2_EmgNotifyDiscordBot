@@ -22,14 +22,5 @@ namespace PSO2_EmgNotifyDiscordBot.Properties {
                 return defaultInstance;
             }
         }
-        
-        [global::System.Configuration.ApplicationScopedSettingAttribute()]
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("MjM2MTE4MDA5MTU5MDkwMTc2.DtbZWQ.j-A74F2_0pTxl16Ah5b62HFOsHM")]
-        public string Token {
-            get {
-                return ((string)(this["Token"]));
-            }
-        }
     }
 }
